@@ -5,19 +5,13 @@ This is a fork of [django-ex](https://github.com/openshift/django-ex) (please lo
 ## Changes in this fork
 
 * welcome - removed
-* initial.json - added (see below about how to add)
 * project/, manage.py - altered to fit provided by Mezzanine
 * openshift/templates/ - renamed and altered
 * requrements.txt - altered
 
-## Adding initial pages
+## Hacks
 
-```bash
-$ oc exec -p <name of pod> -- \ 
-  env LD_LIBRARY_PATH=/opt/rh/python33/root/usr/lib64/ \
-  PYTHONPATH=/opt/openshift/src/.local/lib/python3.3/site-packages \
-  /opt/rh/python33/root/usr/bin/python3 manage.py loaddata initial
-```
+For some not very much clean solutions i have to use to make some things working look in dirty branch.
 
 ## License
 
