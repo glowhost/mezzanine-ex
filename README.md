@@ -11,12 +11,12 @@ This is a fork of [django-ex](https://github.com/openshift/django-ex) (please lo
 * requrements.txt - altered
 ## Adding initial pages
 
-'''bash
+```bash
 $ oc exec -p <name of pod> -- \ 
   env LD_LIBRARY_PATH=/opt/rh/python33/root/usr/lib64/ \
   PYTHONPATH=/opt/openshift/src/.local/lib/python3.3/site-packages \
   /opt/rh/python33/root/usr/bin/python3 manage.py loaddata initial
-'''
+```
 
 ## License
 
