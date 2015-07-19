@@ -11,7 +11,7 @@ This is a fork of [django-ex](https://github.com/openshift/django-ex) (please lo
 
 ## Hacks
 
-For some not very much clean solutions i have to use to make some things working look in dirty branch.
+For some not very much clean solutions i have to use to make some things working look to [mezzanine-ex-dirty](https://github.com/glowhost/mezzanine-ex).
 
 ## License
 
