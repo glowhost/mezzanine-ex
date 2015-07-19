@@ -6,7 +6,7 @@ This is a fork of [django-ex](https://github.com/openshift/django-ex) (please lo
 
 * welcome - removed
 * initial.json - added (see below about how to add)
-* project/ - altered to fit provided by Mezzanine
+* project/, manage.py - altered to fit provided by Mezzanine
 * openshift/templates/ - renamed and altered
 * requrements.txt - altered
 ## Adding initial pages
