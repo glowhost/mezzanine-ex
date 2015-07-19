@@ -1,6 +1,6 @@
 # Openshift quickstart: Mezzanine on Django
 
-This is a fork of [django-ex](https://github.com/openshift/django-ex) (please look there for global instructions) to deploy it on  [OpenShift](https://github.com/openshift/origin) for global instructions (http://www.djangoproject.com) cluster.
+This is a fork of [django-ex](https://github.com/openshift/django-ex) (please look there for global instructions) to deploy it on  [OpenShift](https://github.com/openshift/origin) for global instructions.
 
 ## Changes in this fork
 
