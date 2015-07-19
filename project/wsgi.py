@@ -10,9 +10,9 @@ https://docs.djangoproject.com/en/1.8/howto/deployment/wsgi/
 import os
 
 from django.core.wsgi import get_wsgi_application
+from mezzanine.utils.conf import real_project_name
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE",
+                      "%s.settings" % real_project_name("project"))
 
-from whitenoise.django import DjangoWhiteNoise
-
-application = DjangoWhiteNoise(get_wsgi_application())
+application = get_wsgi_application()
